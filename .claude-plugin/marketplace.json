@@ -1,12 +1,16 @@
 {
   "name": "phinx-marketplace",
-  "description": "Phinx Skills — FAANG-level agent skills for Claude Code",
+  "owner": {
+    "name": "Yahya Al Bashar",
+    "email": "yalbashar@outlook.com"
+  },
   "plugins": [
     {
       "name": "phinx-skills",
+      "source": ".",
       "description": "13 FAANG-level senior engineer skills: clean-code-architecture, frontend-react, backend-api, system-design, devops-infra, database-design, security-review, code-review, testing-strategy, product-thinking, git-workflow, performance-optimization, documentation.",
       "version": "1.0.0",
-      "path": "."
+      "category": "development"
     }
   ]
 }
