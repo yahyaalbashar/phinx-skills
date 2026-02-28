@@ -1,13 +1,12 @@
 {
   "name": "phinx-marketplace",
   "owner": {
-    "name": "Yahya Al Bashar",
-    "email": "yalbashar@outlook.com"
+    "name": "Yahya Al Bashar"
   },
   "plugins": [
     {
       "name": "phinx-skills",
-      "source": "github",
+      "source": "./plugins/phinx-skills",
       "description": "13 FAANG-level senior engineer skills: clean-code-architecture, frontend-react, backend-api, system-design, devops-infra, database-design, security-review, code-review, testing-strategy, product-thinking, git-workflow, performance-optimization, documentation.",
       "version": "1.0.0",
       "category": "development"
